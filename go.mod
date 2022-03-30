@@ -3,10 +3,8 @@ module github.com/invisible-train-40/dgraphql
 go 1.13
 
 require (
-	cloud.google.com/go v0.51.0 // indirect
 	contrib.go.opencensus.io/exporter/stackdriver v0.12.6
 	github.com/GeertJohan/go.rice v1.0.0
-	github.com/cespare/xxhash/v2 v2.1.1 // indirect
 	github.com/dfuse-io/dauth v0.0.0-20200529171443-21c0e2d262c2
 	github.com/dfuse-io/derr v0.0.0-20200417132224-d333cfd0e9a0
 	github.com/dfuse-io/dgrpc v0.0.0-20200417124327-c8f215bc4ce5
@@ -24,18 +22,11 @@ require (
 	github.com/gorilla/mux v1.7.3
 	github.com/gorilla/websocket v1.4.1
 	github.com/graph-gophers/graphql-go v0.0.0-20191115155744-f33e81362277
-	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v1.2.1 // indirect
-	github.com/prometheus/client_model v0.1.0 // indirect
 	github.com/stretchr/testify v1.5.1
 	go.opencensus.io v0.22.3
 	go.uber.org/atomic v1.6.0
 	go.uber.org/zap v1.14.1
-	golang.org/x/crypto v0.0.0-20191206172530-e9b2fee46413 // indirect
-	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d // indirect
-	golang.org/x/sys v0.0.0-20200202164722-d101bd2416d5 // indirect
-	google.golang.org/genproto v0.0.0-20200108215221-bd8f9a0ef82f // indirect
 	google.golang.org/grpc v1.26.0
 	gotest.tools v2.2.0+incompatible
 )
