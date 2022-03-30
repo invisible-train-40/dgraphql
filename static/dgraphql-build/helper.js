@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-function refreshToken(server, token, apiKey, onCompletion, onError) {
+ function refreshToken(server, token, apiKey, onCompletion, onError) {
     if(token === "") {
         return getToken(apiKey, onCompletion, onError)
     }

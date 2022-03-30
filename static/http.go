@@ -58,8 +58,14 @@ func RegisterStaticRoutes(router *mux.Router, protocol, network, apiKey, jwtIssu
 
 	serveIndexHTML(router, box, "/graphiql/", apiKey, jwtIssuerURL)
 	serveFileAsset(router, box, "/graphiql/graphiql_dfuse_override.css", "graphiql_dfuse_override.css", MIME_TYPE_CSS)
+	serveFileAsset(router, box, "/graphiql/graphiql.css", "graphiql.css", MIME_TYPE_CSS)
+	serveFileAsset(router, box, "/graphiql/graphiql.min.js", "graphiql.min.js", MIME_TYPE_JS)
 	serveFileAsset(router, box, "/graphiql/helper.js", "helper.js", MIME_TYPE_JS)
-	serveFileAsset(router, box, "/graphiql/dfuse_logo.svg", "dfuse_logo.svg", MIME_TYPE_SVG)
+	serveFileAsset(router, box, "/graphiql/graphiql-subscriptions-fetcher.js", "graphiql-subscriptions-fetcher.js", MIME_TYPE_JS)
+	serveFileAsset(router, box, "/graphiql/react.min.js", "react.min.js", MIME_TYPE_JS)
+	serveFileAsset(router, box, "/graphiql/react-dom.min.js", "react-dom.min.js", MIME_TYPE_JS)
+	serveFileAsset(router, box, "/graphiql/zsw-lishi.umd.js", "zsw-lishi.umd.js", MIME_TYPE_JS)
+	serveFileAsset(router, box, "/graphiql/subscriptions-transport-ws.js", "subscriptions-transport-ws.js", MIME_TYPE_JS)
 
 	graphqlExamplesJSON, err := json.Marshal(predfinedGraphqlExamples)
 	if err != nil {
