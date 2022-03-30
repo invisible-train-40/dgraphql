@@ -17,8 +17,8 @@ package dgraphql
 import (
 	"fmt"
 
-	"github.com/dfuse-io/dgraphql/types"
 	"github.com/golang/protobuf/proto"
+	"github.com/invisible-train-40/dgraphql/types"
 )
 
 type Paginator struct {

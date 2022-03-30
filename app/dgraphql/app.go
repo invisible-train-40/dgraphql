@@ -22,12 +22,12 @@ import (
 
 	dauthAuthenticator "github.com/dfuse-io/dauth/authenticator"
 	"github.com/dfuse-io/derr"
-	"github.com/dfuse-io/dgraphql"
-	"github.com/dfuse-io/dgraphql/metrics"
-	"github.com/dfuse-io/dgraphql/static"
 	"github.com/dfuse-io/dmetering"
 	"github.com/dfuse-io/dmetrics"
 	"github.com/dfuse-io/shutter"
+	"github.com/invisible-train-40/dgraphql"
+	"github.com/invisible-train-40/dgraphql/metrics"
+	"github.com/invisible-train-40/dgraphql/static"
 	"go.uber.org/zap"
 )
 

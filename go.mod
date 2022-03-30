@@ -1,4 +1,4 @@
-module github.com/dfuse-io/dgraphql
+module github.com/invisible-train-40/dgraphql
 
 go 1.13
 

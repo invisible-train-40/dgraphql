@@ -25,7 +25,7 @@ var traceEnabled = false
 var zlog *zap.Logger
 
 func init() {
-	logging.Register("github.com/dfuse-io/dgraphql", &zlog)
+	logging.Register("github.com/invisible-train-40/dgraphql", &zlog)
 
 	if os.Getenv("TRACE") == "true" {
 		traceEnabled = true
